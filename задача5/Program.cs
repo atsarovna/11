@@ -1,9 +1,22 @@
-﻿Console.Write("Введите число: ");
+﻿//Console.Write("Введите число: ");
+//int b = Convert.ToInt32(Console.ReadLine());//конечное значение
+//int a = -b; //начальное значение
+
+//while (a <= b);
+//{
+// Console.Write(a + ", ");
+// a++;
+//}
+
+Console.Write("Введите число: ");
 int b = Convert.ToInt32(Console.ReadLine());//конечное значение
 int a = -b; //начальное значение
 
 while (a <= b);
 {
-    Console.Write(a + ", ");
+    Console.Write(a);
     a++;
+if (a <= b)
+{
+    Console.Write(", ");
 }
